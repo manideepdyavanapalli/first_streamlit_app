@@ -24,6 +24,7 @@ streamlit.dataframe(fruits_to_show)
 # Display the table on the page.
 streamlit.dataframe(my_fruit_list)
 
+streamlit.header("Fruityvice Fruit Advice!")
 
 #New Section to display fruitvice api response
 import requests
